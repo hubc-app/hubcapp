@@ -1,5 +1,5 @@
 {
-  "name": "user-dashboard",
+  "name": "@hubcapp/user-dashboard",
   "version": "1.0.0",
   "main": "user-dashboard.js",
   "scripts": {

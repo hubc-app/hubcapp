@@ -1,9 +1,9 @@
 {
-  "name": "hubcapp-operator",
+  "name": "@hubcapp/hubcapp-operator",
   "version": "1.0.0",
   "main": "hubcapp-operator.js",
   "scripts": {
-    "start": "node ."
+    "start": "go run ."
   },
   "repository": "git@github.com:hubc-app/hubcapp",
   "author": "Dor Kleiman <configurator@gmail.com>",
