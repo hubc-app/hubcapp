@@ -1,0 +1,11 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "main": "auth.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "git@github.com:hubc-app/hubcapp",
+  "author": "Dor Kleiman <configurator@gmail.com>",
+  "license": "MIT"
+}
