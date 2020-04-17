@@ -10,7 +10,12 @@ spec:
     singular: customerconfiguration
     plural: customerconfigurations
     shortNames:
-      - cc
+      - c-c
+      - c-cs
+      - c-config
+      - c-configs
+      - c-configuration
+      - c-configurations
   versions:
     - name: v1
       served: true
