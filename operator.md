@@ -17,7 +17,7 @@ kind: CustomerConfiguration
 metadata:
     namespace: <customer-id>
     name: config
-data:
+spec:
     logo: <image>
     companyname: <text>
     ...
@@ -33,8 +33,10 @@ kind: CustomerService
 metadata:
   namespace: <customer-id>
   name: <user-selected>
-service: <one of our supported options>
-options: <different data for each service>
+spec:
+  service: <one of our supported options>
+  options: <different data for each service>
+status: <details edited by>
 ```
 
 The operator will take each CustomerService and run the services required, depending on the kind of service requested
