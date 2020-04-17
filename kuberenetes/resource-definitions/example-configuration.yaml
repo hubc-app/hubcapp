@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: example
+
+---
+
+apiVersion: hubc.app/v1
+kind: CustomerConfiguration
+metadata:
+  namespace: example
+  name: config
+spec:
+  companyName: 'Example corporation, inc.'
+  logo: https://www.iana.org/_img/2013.1/iana-logo-header.svg
