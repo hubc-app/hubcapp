@@ -1,0 +1,45 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: example
+
+---
+
+apiVersion: hubc.app/v1
+kind: CustomerConfiguration
+metadata:
+  namespace: example
+  name: config
+spec:
+  companyName: 'Example corporation, inc.'
+  logo: https://www.iana.org/_img/2013.1/iana-logo-header.svg
+
+---
+
+apiVersion: hubc.app/v1
+kind: CustomerService
+metadata:
+  namespace: example
+  name: my-hello-service
+spec:
+  service: hello-world
+
+---
+
+apiVersion: hubc.app/v1
+kind: CustomerService
+metadata:
+  namespace: example
+  name: another-hello-service
+spec:
+  service: hello-world
+
+---
+
+apiVersion: hubc.app/v1
+kind: CustomerService
+metadata:
+  namespace: example
+  name: the-goodbye-service
+spec:
+  service: goodbye-world
