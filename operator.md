@@ -1,5 +1,7 @@
 # Hubcapp operator
 
+### Per customer objects
+
 For each customer, we have a kubernetes namespace.
 
 ```yaml
@@ -21,6 +23,8 @@ data:
     ...
     ...
 ```
+
+### Per service objects
 
 For each service of that customer, we have one CustomerService item.
 
