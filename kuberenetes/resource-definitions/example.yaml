@@ -20,9 +20,11 @@ apiVersion: hubc.app/v1
 kind: CustomerService
 metadata:
   namespace: example
-  name: my-hello-service
+  name: hello-dor
 spec:
   service: hello-world
+  options:
+    user: dor
 
 ---
 
@@ -30,9 +32,11 @@ apiVersion: hubc.app/v1
 kind: CustomerService
 metadata:
   namespace: example
-  name: another-hello-service
+  name: hello-alon
 spec:
   service: hello-world
+  options:
+    user: alon
 
 ---
 
